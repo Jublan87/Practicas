@@ -23,7 +23,77 @@ body{
 
 .conteiner{
     width: 960px;
-    background-color: #d1d1d1;
     margin: 15px auto;
+}
+
+.header{
+    background: #fffbd9;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+.header h1{
+    text-align: left;
+}
+
+.menu{
+    background: #cccccc;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.menu li{
+    display: inline-block;
+    list-style: none;
     padding: 5px;
+    font: bold 14px verdana;
+}
+
+.seccion{
+    margin: 20px;
+    width: 60%;
+    float: left;
+}
+
+article{
+    background: #fffbcc;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+article time{
+    color: #999;
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.lateral{
+    float: left;
+    width: 30%;
+    margin: 20px 0px;
+}
+
+.lateral blockquote {
+    border: 1px solid black;
+    padding: 40px;
+    background: #fffbb9;
+    margin-bottom: 20px;
+}
+
+.footer{
+    clear: both;
+    padding: 20px;
+    background: #2d3436;
+    color: white;
+}
+
+img{
+    display: block;
+    margin: 20px auto;
+    width: 10%;
 }
