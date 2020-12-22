@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json</title>
+</head>
+<body>
+    <ul id="personas"></ul>
+
+    <script>
+        let persona = {
+            "nombre" : "Juan",
+            "apellido" : "Blanco",
+            "edad" : 22,
+            "nickname" : "Jublan"
+        };
+        
+        let personas = [
+            {"nombre" : "amigo1", "nickname" : "nickAmigo1"},
+            {"nombre" : "amigo2", "nickname" : "nickAmigo2"},
+            {"nombre" : "amigo3", "nickname" : "nickAmigo3"},
+            {"nombre" : "amigo4", "nickname" : "nickAmigo4"},
+            {"nombre" : "amigo5", "nickname" : "nickAmigo5"}
+        ]
+
+        let salida = "";
+        for(let i=0; i < personas.length; i++) {
+            salida += `<li>${personas[i].nombre} es ${personas[i].nickname}</li>`;
+        }
+
+        document.getElementById("personas").innerHTML = salida;
+    </script>
+
+</body>
+</html>

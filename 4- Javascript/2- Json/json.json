@@ -1,0 +1,9 @@
+{
+    "personas" : [
+        {"nombre" : "amigo1", "nickname" : "nickAmigo1"},
+        {"nombre" : "amigo2", "nickname" : "nickAmigo2"},
+        {"nombre" : "amigo3", "nickname" : "nickAmigo3"},
+        {"nombre" : "amigo4", "nickname" : "nickAmigo4"},
+        {"nombre" : "amigo5", "nickname" : "nickAmigo5"}
+    ]
+}
