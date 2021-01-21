@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App con objetos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/litera/bootstrap.min.css" integrity="sha384-enpDwFISL6M3ZGZ50Tjo8m65q06uLVnyvkFO3rsoW0UC15ATBFz3QEhr3hmxpYsn" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <a href="#" class="navbar-brand">App con objetos</a>
+    </nav>
+    
+    <div class="container">
+        <div id="app" class="row pt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Agregar producto</h4>
+                    </div>
+                    <form id="product-form" class="card-body">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Producto..." class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" id="precio" step="0.01" placeholder="Precio..." class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" id="año" min="1950" placeholder="Año..." class="form-control">
+                        </div>
+
+                        <input type="submit" value="Guardar" class="btn btn-primary btn-block">
+                    </form>
+                </div>
+            </div>
+            
+            <div id="product-list" class="col-md-8"></div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
